@@ -1,6 +1,6 @@
 # Discrete design for the input buffer - eval board
 
-Impedance matching buffer.
+Impedance matching buffer. Made in KiCAD 5.
 
 ## PCB rendered in 3d:
 ![Screenshot](img/3d.png)
