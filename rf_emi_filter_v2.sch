@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "Discrete voltage follower - RF/EMI input filter"
+Date "2023-05-14"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:XLR3_Ground J?
+U 1 1 647D605C
+P 2000 4000
+AR Path="/64618ED1/647D605C" Ref="J?"  Part="1" 
+AR Path="/647CF58A/647D605C" Ref="J?"  Part="1" 
+AR Path="/647CF3C3/647D605C" Ref="J101"  Part="1" 
+AR Path="/6466A471/647D605C" Ref="J?"  Part="1" 
+F 0 "J?" V 2046 4228 50  0000 L CNN
+F 1 "SIG_IN" V 1955 4228 50  0000 L CNN
+F 2 "" H 2000 4000 50  0001 C CNN
+F 3 " ~" H 2000 4000 50  0001 C CNN
+	1    2000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 647D6068
+P 3500 3900
+AR Path="/64618ED1/647D6068" Ref="C?"  Part="1" 
+AR Path="/647CF58A/647D6068" Ref="C?"  Part="1" 
+AR Path="/647CF3C3/647D6068" Ref="C103"  Part="1" 
+AR Path="/6466A471/647D6068" Ref="C101"  Part="1" 
+F 0 "C101" H 3592 3946 50  0000 L CNN
+F 1 "100p" H 3592 3855 50  0000 L CNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "~" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 647E3029
+P 3500 4600
+AR Path="/64618ED1/647E3029" Ref="C?"  Part="1" 
+AR Path="/647CF58A/647E3029" Ref="C?"  Part="1" 
+AR Path="/647CF3C3/647E3029" Ref="C104"  Part="1" 
+AR Path="/6466A471/647E3029" Ref="C102"  Part="1" 
+F 0 "C102" H 3592 4646 50  0000 L CNN
+F 1 "100p" H 3592 4555 50  0000 L CNN
+F 2 "" H 3500 4600 50  0001 C CNN
+F 3 "~" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 647E4022
+P 2000 4500
+AR Path="/647CF3C3/647E4022" Ref="#PWR013"  Part="1" 
+AR Path="/6466A471/647E4022" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 4250 50  0001 C CNN
+F 1 "GND" H 2005 4327 50  0000 C CNN
+F 2 "" H 2000 4500 50  0001 C CNN
+F 3 "" H 2000 4500 50  0001 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4300 2000 4350
+Wire Wire Line
+	2000 4350 2300 4350
+Connection ~ 2000 4350
+Wire Wire Line
+	2000 4350 2000 4500
+Wire Wire Line
+	2000 3700 2000 3500
+Wire Wire Line
+	2300 4000 2500 4000
+Text GLabel 5000 3500 2    50   Input ~ 0
+SIG_IN+
+Text GLabel 5000 5000 2    50   Input ~ 0
+SIG_IN-
+Wire Wire Line
+	2500 4000 2500 5000
+Text Notes 2350 3050 0    50   ~ 0
+pg 1xx
+$Comp
+L Device:R_Small R?
+U 1 1 64633F86
+P 3250 3500
+AR Path="/64618ED1/64633F86" Ref="R?"  Part="1" 
+AR Path="/647CF58A/64633F86" Ref="R?"  Part="1" 
+AR Path="/647CF3C3/64633F86" Ref="R?"  Part="1" 
+AR Path="/6466A471/64633F86" Ref="R101"  Part="1" 
+F 0 "R101" V 3054 3500 50  0000 C CNN
+F 1 "100R" V 3145 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3500 50  0001 C CNN
+F 3 "~" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 64636200
+P 3250 5000
+AR Path="/64618ED1/64636200" Ref="R?"  Part="1" 
+AR Path="/647CF58A/64636200" Ref="R?"  Part="1" 
+AR Path="/647CF3C3/64636200" Ref="R?"  Part="1" 
+AR Path="/6466A471/64636200" Ref="R102"  Part="1" 
+F 0 "R102" V 3054 5000 50  0000 C CNN
+F 1 "100R" V 3145 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 5000 50  0001 C CNN
+F 3 "~" H 3250 5000 50  0001 C CNN
+	1    3250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 64639136
+P 4500 3900
+AR Path="/64618ED1/64639136" Ref="R?"  Part="1" 
+AR Path="/647CF58A/64639136" Ref="R?"  Part="1" 
+AR Path="/647CF3C3/64639136" Ref="R?"  Part="1" 
+AR Path="/6466A471/64639136" Ref="R104"  Part="1" 
+F 0 "R104" H 4559 3946 50  0000 L CNN
+F 1 "47K" H 4559 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 3900 50  0001 C CNN
+F 3 "~" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 64639613
+P 4500 4600
+AR Path="/64618ED1/64639613" Ref="R?"  Part="1" 
+AR Path="/647CF58A/64639613" Ref="R?"  Part="1" 
+AR Path="/647CF3C3/64639613" Ref="R?"  Part="1" 
+AR Path="/6466A471/64639613" Ref="R105"  Part="1" 
+F 0 "R105" H 4559 4646 50  0000 L CNN
+F 1 "47K" H 4559 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 4600 50  0001 C CNN
+F 3 "~" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 6463DB24
+P 2800 3900
+AR Path="/647CF3C3/6463DB24" Ref="D?"  Part="1" 
+AR Path="/6466A471/6463DB24" Ref="D101"  Part="1" 
+F 0 "D101" V 2754 3980 50  0000 L CNN
+F 1 "6V" V 2845 3980 50  0000 L CNN
+F 2 "" H 2800 3900 50  0001 C CNN
+F 3 "~" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 6463EE35
+P 2800 4600
+AR Path="/647CF3C3/6463EE35" Ref="D?"  Part="1" 
+AR Path="/6466A471/6463EE35" Ref="D102"  Part="1" 
+F 0 "D102" V 2754 4680 50  0000 L CNN
+F 1 "6V" V 2845 4680 50  0000 L CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "~" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 5000 2800 5000
+Wire Wire Line
+	2000 3500 2800 3500
+Wire Wire Line
+	2300 4100 2300 4250
+$Comp
+L Device:R_Small R?
+U 1 1 64680684
+P 4000 4250
+AR Path="/64618ED1/64680684" Ref="R?"  Part="1" 
+AR Path="/647CF58A/64680684" Ref="R?"  Part="1" 
+AR Path="/647CF3C3/64680684" Ref="R?"  Part="1" 
+AR Path="/6466A471/64680684" Ref="R103"  Part="1" 
+F 0 "R103" V 3804 4250 50  0000 C CNN
+F 1 "2M2" V 3895 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 4250 50  0001 C CNN
+F 3 "~" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3500 3500 3500
+Wire Wire Line
+	3350 5000 3500 5000
+Wire Wire Line
+	3500 4700 3500 5000
+Connection ~ 3500 5000
+Wire Wire Line
+	3500 5000 4500 5000
+Wire Wire Line
+	3900 4250 3500 4250
+Connection ~ 2300 4250
+Wire Wire Line
+	2300 4250 2300 4350
+Wire Wire Line
+	2800 4050 2800 4250
+Connection ~ 2800 4250
+Wire Wire Line
+	2800 4250 2300 4250
+Wire Wire Line
+	2800 4450 2800 4250
+Wire Wire Line
+	2800 4750 2800 5000
+Connection ~ 2800 5000
+Wire Wire Line
+	2800 5000 3150 5000
+Wire Wire Line
+	2800 3750 2800 3500
+Connection ~ 2800 3500
+Wire Wire Line
+	2800 3500 3150 3500
+Wire Wire Line
+	3500 3800 3500 3500
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 3500 4500 3500
+Wire Wire Line
+	3500 4000 3500 4250
+Connection ~ 3500 4250
+Wire Wire Line
+	3500 4250 2800 4250
+Wire Wire Line
+	3500 4500 3500 4250
+Wire Wire Line
+	4500 4000 4500 4250
+Wire Wire Line
+	4100 4250 4500 4250
+Connection ~ 4500 4250
+Wire Wire Line
+	4500 4250 4500 4500
+Wire Wire Line
+	4500 3800 4500 3500
+Connection ~ 4500 3500
+Wire Wire Line
+	4500 3500 5000 3500
+Wire Wire Line
+	4500 4700 4500 5000
+Connection ~ 4500 5000
+Wire Wire Line
+	4500 5000 5000 5000
+$EndSCHEMATC

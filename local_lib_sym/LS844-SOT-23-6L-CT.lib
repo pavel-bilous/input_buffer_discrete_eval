@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LS844-SOT-23-6L-CT
+#/17572880/1103419/2.50/6/3/MOSFET (N-Channel)
+DEF LS844-SOT-23-6L-CT Q 0 30 Y Y 1 F N
+F0 "Q" 750 300 50 H V L CNN
+F1 "LS844-SOT-23-6L-CT" 750 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 750 100 50 H I L CNN
+F3 "https://www.linearsystems.com/lsdata/datasheets/LS844SeriesDSRevA14" 750 0 50 H I L CNN
+F4 "JFET Low Noise, Low Drift, Low Capacitance, Monolithic Dual, N-Channel JFET" 750 -100 50 H I L CNN "Description"
+F5 "1.45" 750 -200 50 H I L CNN "Height"
+F6 "722-LS844SOT236LCT" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linear-Integrated-Systems/LS844-SOT-23-6L-CT?qs=T%252BzbugeAwjiyHRIf%2Fcfibw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linear Integrated Systems" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LS844-SOT-23-6L-CT" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X G1 1 0 0 200 R 50 50 0 0 P
+X D1 2 0 -100 200 R 50 50 0 0 P
+X S1 3 0 -200 200 R 50 50 0 0 P
+X S2 6 900 0 200 L 50 50 0 0 P
+X D2 5 900 -100 200 L 50 50 0 0 P
+X G2 4 900 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
