@@ -1,4 +1,4 @@
-# Discrete design for the input buffer eval board
+# Discrete design for the input buffer - eval board
 
 Impedance matching buffer.
 
