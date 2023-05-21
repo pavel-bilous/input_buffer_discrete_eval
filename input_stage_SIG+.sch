@@ -144,7 +144,7 @@ F 3 "~" H 2250 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LS844-SOT-23-6L-CT:LS844-SOT-23-6L-CT Q204
+L input_buffer_discrete_eval-rescue:LS844-SOT-23-6L-CT-LS844-SOT-23-6L-CT Q204
 U 1 1 6464089F
 P 3050 3900
 AR Path="/64618ED1/6464089F" Ref="Q204"  Part="1" 
@@ -163,7 +163,7 @@ F 9 "LS844-SOT-23-6L-CT" H 3800 3300 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L JFE2140DR:JFE2140DR Q205
+L input_buffer_discrete_eval-rescue:JFE2140DR-JFE2140DR Q205
 U 1 1 6491457A
 P 3000 4850
 AR Path="/64618ED1/6491457A" Ref="Q205"  Part="1" 
@@ -182,11 +182,12 @@ F 9 "JFE2140DR" H 3850 4250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2N7002HSX:2N7002HSX Q206
+L input_buffer_discrete_eval-rescue:2N7002HSX-2N7002HSX Q206
 U 1 1 6491457B
 P 3050 5900
 AR Path="/64618ED1/6491457B" Ref="Q206"  Part="1" 
 AR Path="/647CF58A/6491457B" Ref="Q?"  Part="1" 
+AR Path="/6491457B" Ref="Q206"  Part="1" 
 F 0 "Q206" H 3500 6165 50  0000 C CNN
 F 1 "2N7002HSX" H 3500 6074 50  0000 C CNN
 F 2 "" H 3800 6000 50  0001 L CNN

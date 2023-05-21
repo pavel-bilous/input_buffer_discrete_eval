@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name input_buffer_discrete_eval-rescue)(type Legacy)(uri ${KIPRJMOD}/input_buffer_discrete_eval-rescue.lib)(options "")(descr ""))
+)
