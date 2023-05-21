@@ -379,7 +379,7 @@ U 1 1 648CDB19
 P 8000 4000
 F 0 "J401" H 7918 3675 50  0000 C CNN
 F 1 "OUT" H 7918 3766 50  0000 C CNN
-F 2 "" H 8000 4000 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 8000 4000 50  0001 C CNN
 F 3 "~" H 8000 4000 50  0001 C CNN
 	1    8000 4000
 	1    0    0    1   

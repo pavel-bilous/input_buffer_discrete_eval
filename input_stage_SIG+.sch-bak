@@ -170,7 +170,7 @@ AR Path="/64618ED1/6491457A" Ref="Q205"  Part="1"
 AR Path="/647CF58A/6491457A" Ref="IC?"  Part="1" 
 F 0 "Q205" H 3500 5115 50  0000 C CNN
 F 1 "JFE2140DR" H 3500 5024 50  0000 C CNN
-F 2 "" H 3850 4950 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3850 4950 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/jfe2140.pdf?ts=1633964558921" H 3850 4850 50  0001 L CNN
 F 4 "JFE2140 Ultra-Low Noise, Matched, Dual, Low-Gate Current, Discrete, Audio, NChannel JFET" H 3850 4750 50  0001 L CNN "Description"
 F 5 "1.75" H 3850 4650 50  0001 L CNN "Height"

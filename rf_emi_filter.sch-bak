@@ -23,7 +23,7 @@ AR Path="/647CF3C3/647D605C" Ref="J101"  Part="1"
 AR Path="/6466A471/647D605C" Ref="J?"  Part="1" 
 F 0 "J101" V 2046 4228 50  0000 L CNN
 F 1 "SIG_IN" V 1955 4228 50  0000 L CNN
-F 2 "" H 2000 4000 50  0001 C CNN
+F 2 "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH2_Horizontal" H 2000 4000 50  0001 C CNN
 F 3 " ~" H 2000 4000 50  0001 C CNN
 	1    2000 4000
 	0    -1   -1   0   
